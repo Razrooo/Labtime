@@ -1,0 +1,22 @@
+Diretórios de dependências (pasta enorme)
+
+/node_modules
+
+Arquivos de log e cache do Node
+
+npm-debug.log*
+yarn-error.log*
+.log
+
+Variáveis de Ambiente e Credenciais (MUITO IMPORTANTE)
+
+Seu arquivo de conexão com o banco de dados/senhas DEVE ser ignorado.
+
+.env
+.env.local
+.env.development.local
+
+Arquivos de configurações de IDEs
+
+.DS_Store
+.vscode

@@ -1,0 +1,66 @@
+    .sair {
+
+      position: fixed;
+      top: 20px;
+      right: 20px;
+
+    }
+    
+    .container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    body {
+      font-family: Arial;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 600px;
+      margin: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .occupied {
+      background: #ffcccc;
+      color: #900;
+      font-weight: bold;
+    }
+
+    .free {
+      background: #ccffcc;
+      color: #060;
+      font-weight: bold;
+    }
+
+    button {
+      padding: 8px 14px;
+      border: none;
+      background: #4287f5;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      background: gray;
+    }
